@@ -11,5 +11,8 @@ var diversion = Vue.createApp({
     diversion.mount("#main");
 
     var diversion = Vue.createApp({
-        template
+        template: 
+        <div> 
+            <h1>plicacion Vue.js</h1>
+        </div> 
     })
