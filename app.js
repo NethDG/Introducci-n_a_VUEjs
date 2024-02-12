@@ -32,4 +32,11 @@ var diversion = Vue.createApp({
 
 Edad.mount("#app");
 
-const instanciaVue
+const instanciaVue = Vue.createApp({
+    template:
+        <div>
+            <p>Instancia de vue</p>
+        </div>
+})
+
+
