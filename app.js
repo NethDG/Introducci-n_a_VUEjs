@@ -13,6 +13,9 @@ var diversion = Vue.createApp({
     var diversion = Vue.createApp({
         template: 
         <div> 
-            <h1>plicacion Vue.js</h1>
+            <h1>aplicacion Vue.js</h1>
+            <p>Los años de {{ nombre }} es: {{}} </p>
+            <button click="sumarEdad">Aumentar edad</button>
+
         </div> 
     })
