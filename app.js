@@ -25,7 +25,11 @@ var diversion = Vue.createApp({
         },
         methods: {
             sumarEdad() {
-                
+                this.edad++;
             }
         }
     })
+
+Edad.mount("#app");
+
+const instanciaVue
