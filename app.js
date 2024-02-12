@@ -7,4 +7,9 @@ var diversion = Vue.createApp({
     template: "<h1>Hola tonotos</h1>",
 
 });
+
     diversion.mount("#main");
+
+    var diversion = Vue.createApp({
+        template
+    })
