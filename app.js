@@ -39,4 +39,6 @@ const instanciaVue = Vue.createApp({
         </div>
 })
 
-
+setTimeout(() =>{
+    instanciaVue.mount("#instanciaVue");
+}, 5000)
