@@ -1,5 +1,5 @@
 //limpia la consola
-console.clear("Hola mundo");
+console.clear();
 
 //crear una aplicacion vue. pero la sintaxis esta equivocada
 //deberia ser como el siguiente
@@ -10,13 +10,15 @@ var diversion = Vue.createApp({
 
     diversion.mount("#main");
 
-    var diversion = Vue.createApp({
+    var Edad = Vue.createApp({
         template: 
         <div> 
             <h1>aplicacion Vue.js</h1>
-            <p>Los años de {{ nombre }} es: {{}} </p>
+            <p>Los años de {{ nombre }} es: {{ edad }} años </p>
             <button click="sumarEdad">Aumentar edad</button>
         </div> 
+        
+        
         data() {
             return {
                 nombre: 'Amicia',
